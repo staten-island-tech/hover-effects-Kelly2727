@@ -18,5 +18,26 @@ html {
 
 .holiday {
   height: 20rem;
+  position: absolute;
+}
+
+.grinch {
+  top: 5rem;
+  left: 15%;
+}
+
+.alvin {
+  top: 2rem;
+  right: 0;
+}
+
+.peppa {
+  top: -2rem;
+  right: 0;
+}
+
+.holiday:hover {
+  -webkit-transform: scale 1.3;
+          transform: scale 1.3;
 }
 /*# sourceMappingURL=style.css.map */
