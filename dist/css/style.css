@@ -23,7 +23,7 @@ html {
 
 .grinch {
   top: 5rem;
-  left: 15%;
+  left: 90%;
 }
 
 .alvin {
@@ -39,5 +39,21 @@ html {
 .holiday:hover {
   -webkit-transform: scale 1.3;
           transform: scale 1.3;
+  outline: 1rem solid palevioletred;
+  z-index: 2;
+}
+
+.holiday-gallery:hover .holiday:not(:hover) {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0.5;
+}
+
+.button {
+  background-color: white;
+  color: red;
+  border: 2px solid #07913c;
+  font-size: 24px;
+  border-radius: 12px;
 }
 /*# sourceMappingURL=style.css.map */
