@@ -49,11 +49,30 @@ html {
   opacity: 0.5;
 }
 
-.button {
-  background-color: white;
-  color: red;
-  border: 2px solid #07913c;
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #6efaa4;
+  color: #db455e;
   font-size: 24px;
+  padding: 16px 30px;
+  border: 2px solid #07913c;
+  cursor: pointer;
   border-radius: 12px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: #0a9259;
+  color: #e29f9f;
 }
 /*# sourceMappingURL=style.css.map */

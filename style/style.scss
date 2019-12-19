@@ -43,11 +43,28 @@ height: 45rem;
     transform:scale(0.8);
     opacity: 0.5;
 }
-
-.button {
-    background-color: white;
-  color: red;
-  border: 2px solid #07913c;
+.container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #6efaa4;
+    color: rgb(219, 69, 94);
     font-size: 24px;
+    padding: 16px 30px;
+    border: 2px solid #07913c;
+    cursor: pointer;
     border-radius: 12px;
-}
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: rgb(10, 146, 89);
+    color: rgb(226, 159, 159);
+  }
