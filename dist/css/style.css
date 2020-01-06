@@ -61,18 +61,18 @@ html {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #6efaa4;
-  color: #db455e;
+  background-color: #2189ff;
+  color: #f5e083;
   font-size: 24px;
   padding: 16px 30px;
-  border: 2px solid #07913c;
+  border: 2px solid #d15922;
   cursor: pointer;
   border-radius: 12px;
   text-align: center;
 }
 
 .container .btn:hover {
-  background-color: #0a9259;
-  color: #e29f9f;
+  background-color: #214da0;
+  color: #f3ce27;
 }
 /*# sourceMappingURL=style.css.map */
