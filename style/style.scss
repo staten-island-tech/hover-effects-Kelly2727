@@ -68,3 +68,47 @@ height: 45rem;
     background-color: rgb(33, 77, 160);
     color: rgb(243, 206, 39);
   }
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  background-color: pink;
+  border: 3px solid #2185ff;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  background-color: pink;
+  border: 3px solid #2185ff;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+</style>
+</head>
+<body>
+
+<h2>Fading Buttons - "Fade in Effect"</h2>
+
+<button class="btn">Fun!</button>
+
+</body>
+</html>
