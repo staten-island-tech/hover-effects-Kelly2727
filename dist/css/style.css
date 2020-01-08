@@ -36,6 +36,10 @@ html {
   right: 0;
 }
 
+.peppa:hover {
+  opacity: .5;
+}
+
 .holiday:hover {
   -webkit-transform: scale 1.3;
           transform: scale 1.3;
@@ -74,5 +78,22 @@ html {
 .container .btn:hover {
   background-color: #214da0;
   color: #f3ce27;
+}
+
+.btn {
+  background-color: pink;
+  border: 3px solid #2185ff;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
