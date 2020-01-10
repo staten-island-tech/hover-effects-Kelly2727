@@ -33,11 +33,8 @@ height: 45rem;
     right: 0;
 }
 
-.peppa:hover{
-  opacity: .5};
-
-.holiday-gallery:hover .holiday:not(:hover) {
-    transform:scale(0.8);
+.holiday-gallery:hover /*.holiday:not(:hover)*/ {
+    transform:scale(2);
     opacity: 0.5;
 }
 .container img {
