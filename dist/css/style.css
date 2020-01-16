@@ -4,6 +4,11 @@ html {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  /*background-color: lightblue;*/
+}
+
+body {
+  background-color: lightblue;
 }
 
 .holiday-parent {
@@ -36,11 +41,7 @@ html {
   right: 0;
 }
 
-.peppa:hover {
-  opacity: .5;
-}
-
-.holiday-gallery:hover .holiday:not(:hover) {
+.holiday-gallery:hover {
   -webkit-transform: scale(2);
           transform: scale(2);
   opacity: 0.5;
@@ -51,7 +52,7 @@ html {
   height: auto;
 }
 
-.container .btn {
+.container .btna {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -68,12 +69,12 @@ html {
   text-align: center;
 }
 
-.container .btn:hover {
+.container .btna:hover {
   background-color: #214da0;
   color: #f3ce27;
 }
 
-.btn {
+.btnb {
   background-color: pink;
   border: 3px solid #2185ff;
   color: white;
@@ -86,7 +87,7 @@ html {
   transition: 0.3s;
 }
 
-.btn:hover {
+.btnb:hover {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
