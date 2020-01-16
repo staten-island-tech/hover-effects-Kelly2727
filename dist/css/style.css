@@ -4,11 +4,6 @@ html {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /*background-color: lightblue;*/
-}
-
-body {
-  background-color: lightblue;
 }
 
 .header {
@@ -57,33 +52,16 @@ body {
           box-shadow: 0 1.5rem 4rem red;
 }
 
-<<<<<<< HEAD
-.holiday-gallery:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  opacity: 0.5;
-}
-
-.container img {
-=======
 .peppa:hover {
   opacity: .5;
 }
 
 .container {
->>>>>>> e66332f0e07017de9903c98c87c8ea22dd3ed45d
   width: 100%;
   height: auto;
 }
 
-<<<<<<< HEAD
-.container .btna {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-=======
 .container .btn {
->>>>>>> e66332f0e07017de9903c98c87c8ea22dd3ed45d
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -96,19 +74,11 @@ body {
   margin: 4px 2px;
 }
 
-<<<<<<< HEAD
-.container .btna:hover {
-=======
 .btn1:hover {
->>>>>>> e66332f0e07017de9903c98c87c8ea22dd3ed45d
   background-color: #214da0;
   color: #f3ce27;
 }
 
-<<<<<<< HEAD
-.btnb {
-  background-color: pink;
-=======
 .btn1 {
   background-color: #2189ff;
   color: #f5e083;
@@ -125,7 +95,6 @@ body {
 
 .btn2 {
   background-color: #ffb0bd;
->>>>>>> e66332f0e07017de9903c98c87c8ea22dd3ed45d
   border: 3px solid #2185ff;
   color: #db4062;
   opacity: 1;
@@ -136,10 +105,6 @@ body {
   left: 50%;
 }
 
-<<<<<<< HEAD
-.btnb:hover {
-  opacity: 1;
-=======
 .logo {
   height: 45rem;
   width: 50rem;
@@ -185,6 +150,5 @@ body {
   100% {
     background-position: 0% 50%;
   }
->>>>>>> e66332f0e07017de9903c98c87c8ea22dd3ed45d
 }
 /*# sourceMappingURL=style.css.map */
